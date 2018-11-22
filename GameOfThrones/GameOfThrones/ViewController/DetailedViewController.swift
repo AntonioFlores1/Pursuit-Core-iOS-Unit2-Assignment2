@@ -26,7 +26,13 @@ class DetailedViewController: UIViewController {
         DetailImage.image = UIImage(named: Got.mediumImageID)
         DetailLabel.text = Got.name
         DetailText.text = Got.summary
-        everything.text = "Seaoson:\(Got.season) Epsidoe:\(Got.number) Runtime:\(Got.runtime) AirDate:\(Got.airdate) "
+        everything.text =
+        """
+        Seaoson: \(Got.season)
+        Epsidoe: \(Got.number)
+        Runtime: \(Got.runtime)
+        AirDate: \(Got.airdate)
+        """
     }
     
 
